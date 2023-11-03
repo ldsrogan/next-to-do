@@ -1,0 +1,36 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.description {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+  font-family: var(--font-mono);
+}
+
+.link {
+  display: flex;
+  color: purple;
+  font-weight: 600;
+  font-size: large;
+  box-sizing: border-box;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid purple;
+  background-color: white;
+
+  &:hover {
+    background-color: violet;
+    border-color: violet;
+  }
+}
